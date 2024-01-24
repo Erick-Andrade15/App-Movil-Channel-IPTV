@@ -6,6 +6,8 @@ import 'package:flutter/services.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+
   SystemChrome.setPreferredOrientations(
       [DeviceOrientation.landscapeLeft, DeviceOrientation.landscapeRight]);
 
@@ -26,7 +28,7 @@ void main() {
     ..textColor = Const.colorWhite
     ..userInteractions = false
     ..dismissOnTap = false;
-    
+
   runApp(const MainApp());
 }
 
@@ -35,7 +37,8 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return 
+    MaterialApp(
       debugShowCheckedModeBanner: true,
       initialRoute: RoutesName.onboard,
       onGenerateRoute: Routes.generateRoute,

@@ -152,10 +152,10 @@ class _ControlsVideoPlayerState extends State<ControlsVideoPlayer> {
           mainAxisAlignment: MainAxisAlignment.end,
           children: [
             //END BAR
-            Container(
-              color: Colors.black38,
-              child: Flexible(
-                flex: 0,
+            Flexible(
+              flex: 0,
+              child: Container(
+                color: Colors.black38,
                 child: Padding(
                   padding: const EdgeInsets.fromLTRB(25, 0, 25, 0),
                   child: Row(

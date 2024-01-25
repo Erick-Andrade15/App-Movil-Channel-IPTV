@@ -17,7 +17,7 @@ class TvLivePage extends StatefulWidget {
 class _TvLivePageState extends State<TvLivePage> {
   TvLiveViewModel viewModelTvLive = TvLiveViewModel();
 
-  late Future<ClsChannel>? futureChannelGlobal;
+  late Future<ClsChannel> futureChannelGlobal;
 
   @override
   void initState() {

@@ -66,7 +66,7 @@ class _SplashScreenState extends State<SplashScreen> {
                 Lottie.asset(Const.aniSplashLoading, width: width / 3),
                 const Image(
                   image: AssetImage(Const.imgLogo),
-                  height: 150,
+                  height: 75,
                 ),
               ]),
               Utils.verticalSpace(20),

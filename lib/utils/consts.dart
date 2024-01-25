@@ -6,7 +6,7 @@ class Const {
 
   /* IMAGENES */
   static const String imgBackground = "assets/img/bg.jpg";
-  static const String imgLogo = "assets/img/streamImg.png";
+  static const String imgLogo = "assets/img/logo.png";
   static const String streamImg = "assets/img/streamImg.png";
 
   /* ANIMATIONS */

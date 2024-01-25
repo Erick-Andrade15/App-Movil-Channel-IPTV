@@ -24,9 +24,9 @@ class Repository {
           debugPrint("Attempting to create ClsChannel:");
 
           ClsChannel channel = ClsChannel(
-            nameChannel: 'CB TV\nUn Canal Diferente',
+            nameChannel: 'CBVT',
             streamImg: Const.streamImg,
-            urlChannel: 'https://cloudvideo.servers10.com:8081/8030/index.m3u8',
+            urlChannel: 'http://panel.terabytetvsas.com/David/David20/208.ts',
           );
 
           Globals.globalChannels = channel;
